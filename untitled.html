@@ -1,0 +1,128 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JustCake | Premium Cake Shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #fffafc; color: #333; }header {
+  background: #ffe4ec;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 { color: #ff4d88; }
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.hero {
+  height: 80vh;
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url('https://images.unsplash.com/photo-1559622214-f8a9850965bb');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  color: #ff4d88;
+}
+
+.section { padding: 50px 20px; text-align: center; }
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover { transform: scale(1.05); }
+
+.card img { width: 100%; height: 200px; object-fit: cover; }
+
+.card h3 { padding: 10px; }
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #ff4d88;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+footer {
+  background: #ffe4ec;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact p { margin: 5px 0; }
+
+  </style>
+</head>
+<body><header>
+  <h1>JustCake</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Cakes</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header><section class="hero">
+  <div>
+    <h2>Delicious Cakes Made With Love 🎂</h2>
+    <a class="btn" href="https://wa.me/918123666143">Order on WhatsApp</a>
+  </div>
+</section><section id="products" class="section">
+  <h2>Our Special Cakes</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587">
+      <h3>Chocolate Cake</h3>
+      <a class="btn" href="https://wa.me/918123666143">Order Now</a>
+    </div><div class="card">
+  <img src="https://images.unsplash.com/photo-1541782814456-2c20f7d95c6a">
+  <h3>Strawberry Cake</h3>
+  <a class="btn" href="https://wa.me/918123666143">Order Now</a>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1603532648955-039310d9ed75">
+  <h3>Designer Cake</h3>
+  <a class="btn" href="https://wa.me/918123666143">Order Now</a>
+</div>
+
+  </div>
+</section><section id="contact" class="section contact">
+  <h2>Contact Us</h2>
+  <p>📍 Opp Anand Hotel, SB Temple Road, Kalaburagi - 585102</p>
+  <p>📞 8123666143 / 815191413</p>
+  <p>📷 Instagram: @justcake_klb</p>
+  <p>Available on Zomato & Swiggy</p>
+</section><footer>
+  <p>© 2026 JustCake | Made with ❤️</p>
+</footer></body>
+</html>
